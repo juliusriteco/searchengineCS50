@@ -13,6 +13,10 @@ body{
     margin-bottom: 20px;
     width: 100%;
 }
+.forminput1{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 footer {
     display: flex;
     text-align: center;
@@ -49,4 +53,8 @@ footer {
     align-content: stretch;
     background-color: blue;
 
+}
+
+.bluebutton{
+    background-color: blue;
 }
