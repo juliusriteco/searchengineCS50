@@ -1,22 +1,24 @@
-body{
+body {
     text-align: center;
-    font-family:'Open Sans';
+    font-family: 'Open Sans';
 
 }
 
-.search{
+.search {
     padding: 20px;
 }
 
-.forminput{
+.forminput {
     border-radius: 10px;
     margin-bottom: 20px;
     width: 100%;
 }
-.forminput1{
+
+.forminput1 {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
 footer {
     display: flex;
     text-align: center;
@@ -27,26 +29,28 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 5.5rem;            /* Footer height */
-    
+    height: 5.5rem;
+    /* Footer height */
+
 }
-.centerpiece{
+
+.centerpiece {
     margin-top: 10vh;
     text-align: center;
 }
 
-.centerpiecesmall{
+.centerpiecesmall {
     text-align: center;
     margin-top: 5vh;
 }
 
-.centerpieceleft{
+.centerpieceleft {
     text-align: left;
     width: 80%;
     margin-top: 8vh;
 }
 
-.flexsearch{
+.flexsearch {
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -55,7 +59,7 @@ footer {
 
 }
 
-.bluebutton{
+.bluebutton {
     background-color: rgb(154, 182, 219);
     color: white;
     border-radius: 4px;
