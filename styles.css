@@ -1,16 +1,17 @@
 body{
     text-align: center;
     font-family:'Open Sans';
+
 }
 
 .search{
     padding: 20px;
-    background-color: white;
 }
 
 .forminput{
     border-radius: 10px;
     margin-bottom: 20px;
+    width: 100%;
 }
 footer {
     display: flex;
@@ -28,4 +29,24 @@ footer {
 .centerpiece{
     margin-top: 10vh;
     text-align: center;
+}
+
+.centerpiecesmall{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.centerpieceleft{
+    text-align: left;
+    width: 80%;
+    margin-top: 8vh;
+}
+
+.flexsearch{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    background-color: blue;
+
 }
