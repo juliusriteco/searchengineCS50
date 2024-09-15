@@ -41,34 +41,40 @@
         <h5>Pagina's vinden met...</h5>
         <hr>
         <div class="container text-left">
+          
           <div class="row">
             <div class="col">
               <label>Al deze woorden:</label>
             </div>
             <div class="col-6">
-              <input class="forminput" type="text" name="q"> <!--hierop focussen-->
+              <input type="hidden" name='as_st' value='y'>
+              <input class="forminput" type="text" name="q"> 
+            
             </div>
             <div class="col">
               <p>Typ de belangrijke woorden: rat terriër</p>
             </div>
           </div>
+          
           <div class="row">
             <div class="col">
               <label>dit exacte woord of deze exacte woordgroep:</label>
             </div>
             <div class="col-6">
-              <input class="forminput" type="text" name="q">
+              <input class="forminput" type="text" name='as_epq' value="">
             </div>
             <div class="col">
               <p>Zet exacte woorden tussen aanhalingstekens: "rat terrier"</p>
             </div>
           </div>
+          
           <div class="row">
             <div class="col">
               <label>een of meer van deze woorden:</label>
             </div>
             <div class="col-6">
-              <input class="forminput" type="text" name="q">
+              <input type="hidden" name='as_st' value='y'>
+              <input class="forminput" type="text" name="as_oq">
             </div>
             <div class="col">
               <p>Typ OR tussen alle woorden die je wilt tonen: miniatuur OR standaard
@@ -80,19 +86,22 @@
               <label>Geen van deze woorden:</label>
             </div>
             <div class="col-6" style="text-align: right;">
-              <input class="forminput" type="text" name="q">
+              <input type="hidden" name='as_st' value='y'>
+              <input class="forminput" type="text" name="as_eq">
               <br><br>
               <hr>
-              <input class="bluebutton" type="submit" value="   Advanced Search   "> <!--hierop focussen-->
+              <input class="bluebutton" type="submit" value="   Advanced Search   "> 
             </div>
             <div class="col">
               <p>Zet een minteken vlak voor woorden die je niet wilt tonen: -knaagdier, -"Jack Russell"
               </p>
             </div>
           </div>
+          
 
 
       </form>
+      
     </div>
   </section>
 
